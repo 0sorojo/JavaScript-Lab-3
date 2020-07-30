@@ -80,10 +80,15 @@ const findSubmissionByName = (array, name) => {
 
 console.log(findSubmissionByName(submissions, "Jack"));
 
+// bracket notation allows you to look at a certain element in an array
+// dot notation allows you to look at a certain property of an object to see it's value.
+
+
 // first initialize the variable to an array
 // compare each object in the array to the previous one
 // must start at the first object in the array thus [0] index
 // if the current object in the array.propertySeached then reset the variable value to the new better qualifying statement
+// forEach() is an method that is used on Arrays
 
 const findLowestScore = (array) => {
   let lowestScore = array[0];
